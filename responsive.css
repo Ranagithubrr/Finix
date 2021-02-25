@@ -1,0 +1,291 @@
+@media screen and (max-width:991px){
+
+
+    .navbar-brand img{
+        width:100px;
+}
+    .search,
+    .call-icon,
+    .call-text,
+    .common-btn{
+        display:none;
+        visibility: hidden;
+
+    }
+    .common-btn2{
+        display:block;
+        float:right;
+        margin-left:auto;
+        margin-right:5px;
+    }
+    .navbar{
+        
+    }
+    .text-div h2{
+        width:100%;
+    }
+    .text-div h2{
+        font-size:35px;
+        width:100%;
+    }
+    .text-div p{
+        font-size:16px;
+        width:100%;
+    }
+    #main-sec{
+        background-image: url(img/main-banner2.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        background-position:55% 50%;
+    }
+    .social-icons{
+        padding: 140px 0px 55px 0px;
+      }
+
+      #sliding ul li img{
+        width:80%;
+      }
+
+
+      #WhyPeopleSec .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #WhyPeopleSec .card2{
+        margin-top:0;
+  }
+  #experience-sec1 p{
+    text-align:justify;
+  }
+  #WhyPeopleSec .left-side i {
+    color: #e73c3e;
+    font-size: 50px;
+    background: #fff;
+    height: 67px;
+    width: 67px;
+    text-align: center;
+    line-height: 67px;
+    border-radius: 50%;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transition:0.5s;
+  }
+  #Funding-sec p {
+    width: 80%;
+    text-align:center;
+  }
+
+  #Form-section .form-side {
+    position:relative;
+    padding-left:5px;
+
+}
+#Form-section .form-side::before {
+  height: calc(100% - 440px);
+  left: 25px;
+  top: 250px;
+}
+
+
+/* call section */
+#call-section .call-background .left h3{
+  padding:0 10px;
+  font-size:25px;
+
+}
+#call-section .call-background i{
+  height:50px;
+  width:50px;
+  line-height:55px;
+  font-size:25px;
+  top:120px;
+  margin-left:10px;
+}
+#call-section .call-background .right::before{
+ display:none;
+}
+#call-section .call-background .right h3 a{
+  padding-left:70px;
+  padding-top:20px;
+  font-size:20px;
+}
+
+
+
+/* company value section */
+#company-value h3{
+  color:#111;
+  font-family:sans-serif;
+  font-weight:600;
+  font-size:35px;
+  display:block;
+  padding:0 10px;
+}
+
+#company-value i{
+  font-size:40px;
+  text-align:center;
+  display:block;
+  line-height:45px;
+  color:#e73c3e;
+  padding-left:5px;
+
+}
+#company-value h4{
+  color:#111;
+  font-family:sans-serif;
+  font-weight:600;
+  font-size:24px;
+  padding:5px 5px;
+}
+#company-value p{
+  padding-left:5px;
+  
+}
+
+#knowledge-sec p {
+  width: 80%;
+}
+#experience-sec1 .rounded-div strong{
+  font-size:45px;
+}
+#experience-sec1 .rounded-div span {
+  font-size: 13px;
+  margin-top: -7px;
+}
+#experience-sec1 .rounded-div {
+  position: absolute;
+  background-image: url(img/rounded.png);
+  height: 143px;
+  width: 150px;
+  right: 15px;
+  top: 187px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* #sliding ul{ 
+  display:flex;
+  padding-left:0;
+  padding:0;
+  
+}
+
+#sliding ul li img{
+  width:80%;
+  height:100%;
+} */
+
+
+
+
+/* slider section */
+#slider-section ul li i {
+  color: #606060;
+  background: #2b2b;
+  font-size: 24px;
+  display: block;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -55px;
+  line-height: 50px;
+  border-radius: 50%;
+  left: 0px;
+  transition: 0.5s;
+}
+
+#slider-section ul li a {
+  background-color: none;
+  color: #111;
+  font-weight: 700;
+  font-size: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+#slider-section .agri-loan{
+  padding-top: 30px;
+}
+
+/* founder-section */
+#founder-section img{
+  padding-left:0px;
+  padding-top:20px;
+  width:100%;
+}
+#founder-section P{
+  text-align:justify;
+  }
+
+  #founder-section .qutation {
+    position: absolute;
+    right: -45px;
+    margin: 0 auto;
+    bottom: 0;
+    z-index: 2;
+    color: #E73C3E;
+    height: 65px;
+    width: 65px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 69px;
+    transition: 0.5s;
+}
+
+  /* team-section */
+  #team-section h3{
+    padding-top:15px;
+  }
+  #team-section span {
+    font-size: 14px;
+    margin-top: -5px;
+    display: block;
+    padding-bottom: 10px;
+}
+#team-section .icons-div ul li{
+  display:inline-block;
+  padding:0 4px;
+  transform:translateY(0px);
+  transition:0.5s;
+  opacity:1;
+  visibility: visible;
+}
+#team-section .icons-div ul li a {
+  display: block;
+  color: #111;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #111;
+  transition: .5s;
+}
+/* last-nav section */
+#last-card h3 a{
+  padding-right:0px;
+}
+#last-card .read-btn{
+ 
+  padding-top:15px;
+  margin-bottom:10px;
+}
+
+/* footer section */
+footer .footer-icons span{
+  display:block;
+}
+footer .footer-icons i {
+  padding: 8px 5px 10px 0px;
+}
+footer .last-row i{
+  text-align:center;
+  font-size:22px;
+  padding-top:10px;
+  padding-left:0px;
+}
+}
